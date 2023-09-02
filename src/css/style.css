@@ -1,0 +1,121 @@
+.registr_modal {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid grey;
+}
+
+
+.window {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 300px;
+    border: 2px solid black;
+}
+
+.enter_name {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    min-height: 30px;
+}
+
+.button_enter {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 40%;
+    min-height: 30px;
+    color: green;
+    margin-left: 30%;
+}
+.container_button {
+    margin-left: auto;
+    margin-right: auto;
+}
+.choose_name {
+    text-align: center;
+    color: green;
+}
+
+.chat_page {
+    border: 2px solid black;
+    width: 70%;
+    min-height: 500px;
+}
+
+.chat_list {
+    border: 2px solid grey;
+    width: 30%;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-left: 3%;  
+    height: 40%;
+}
+
+.users {
+    list-style-type: none;
+}
+
+.user {
+    margin-top: 10px;
+}
+
+.name {
+    margin-left: 5px;
+}
+
+.chat_window {
+    border: 2px solid grey; 
+    border-radius: 20px;
+    margin-top: 5%;
+    width: 50%;
+    position: relative;
+}
+
+.chat_page {
+    display: flex;
+    display: none;
+}
+
+.user_message {
+    margin-top: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.user_name {
+    color: green;
+}
+
+.your_message {
+    margin-top: 10px;
+    margin-left: 60%;
+}
+
+.your_name {
+    color: red;
+}
+
+.text_message {
+    margin-top: 5px;
+}
+
+.field_button {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+.message_input {
+    width: 300px;
+}
+.enter_message {
+    background-color: green;
+    width: 50px;
+    font-weight: bold;
+
+}
