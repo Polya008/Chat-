@@ -6,6 +6,9 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
   },
+   stats: {
+        children: true,
+    },
   module: {
     rules: [
       {
