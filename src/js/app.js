@@ -18,7 +18,7 @@ ws.addEventListener('message', (evt) => {
     chatPage.style.display = 'flex';
     const you = document.createElement('li');
     you.classList = 'user';
-    you.innerHTML += `<img src="./image/user.png" class="user_image"><span class="name">${inputName.value}</span>`;
+    you.innerHTML += `<img src="./image/user.img" class="user_image"><span class="name">${inputName.value}</span>`;
     users.appendChild(you);
   }
 });
